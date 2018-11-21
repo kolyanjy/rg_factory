@@ -1,0 +1,26 @@
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Metrics/LineLength:
+  Max: 120
+Metrics/BlockLength:
+  Max: 99
+Metrics/AbcSize:
+  Max: 70
+Metrics/MethodLength:
+  Max: 50
+Metrics/CyclomaticComplexity:
+  Max: 7
+Style/BracesAroundHashParameters:
+  Exclude:
+    - 'lib/factory.rb'
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - 'lib/factory.rb'
+Lint/AmbiguousOperator:
+  Exclude:
+    - 'lib/factory.rb'
+Lint/ShadowingOuterLocalVariable:
+  Exclude:
+    - 'lib/factory.rb'
+Style/Documentation:
+  Enabled: false
